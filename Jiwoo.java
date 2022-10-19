@@ -1,10 +1,10 @@
+public class Jiwoo {
+        private int nbJiwoo;
+        private int age;
 
-    public class Jiwoo {
-        private String nom;
-        private String prenom;
-
-        public Jiwoo(String n, String p) {
-            nom =n;
-            prenom=p;
+        public Jiwoo(int nbJiwoo,int age) {
+            this.age = age;
+            this.nbJiwoo = nbJiwoo;
         }
     }
+
